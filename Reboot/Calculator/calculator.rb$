@@ -1,0 +1,12 @@
+def calculate (first_digit, second_digit, operator)
+if operator == "+"
+result = first_digit + second_digit
+else
+operator == "-"
+reuslt = first_digit - second_digit
+end
+
+return result
+end
+
+puts calculate (12, 15, -)
